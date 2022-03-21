@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-position: center;
+    }
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+button{
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 22px;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.nav{
+    width: 85%;
+    height: 25%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main{
+    color: #fff;
+    position:absolute;
+    top: 50;
+    left: 25%;
+    transform: translateX(-10%);
+}
+h1{
+    font-size: 65px;
+    margin: 10px 0 30px;
+}
+
+small{
+    font-size: 17px;
+    text-transform:capitalize;
+    letter-spacing: 1.8px;
+}
